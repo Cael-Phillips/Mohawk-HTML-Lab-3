@@ -1,0 +1,79 @@
+*{
+	margin-top:0;
+}
+body{
+	margin-left: 10em;
+	margin-right: 10em;
+}
+.hcenter{
+	width: 100%;
+	text-align: center;
+}
+nav{
+	background:#fbefb3;
+	height: 42px;
+	width: 100%;
+
+}
+nav ul li{
+	list-style: none;
+	margin-left: 25%;
+}
+
+nav ul li a{
+	float: left;
+	text-decoration: none;
+	padding: 0 20px 0 20px;
+	margin: 0 10px 0 10px;
+}
+nav ul li a:hover{
+	color: #ec834a;
+}
+nav ul li a:visited{
+	color: black;
+}
+h1,h2,nav a,#title{
+	color: #14ab3f;
+}
+figure{
+	float: right;
+}
+
+#title{
+	text-align: center;
+}
+#title img{
+	vertical-align: middle;
+}
+#contents{
+	line-height: 3em;
+	list-style-image: url("images/arrow.jpg");
+}
+#centers{
+
+}
+ul li{
+	list-style-type: circle;
+}
+#compost{
+}
+#contact{
+	border-top: 1px solid black;
+	text-align: center;
+	background-image: url("images/ricepaper.png");
+}
+ol li{
+	list-style-type: lower-roman;
+}
+ol li a{
+	background:#fbefb3;
+	text-decoration: none;
+}
+.important{
+	color: black;
+	text-decoration-line: underline;
+  	text-decoration-style: double;
+}
+span{
+	color: #b8860b;
+}
